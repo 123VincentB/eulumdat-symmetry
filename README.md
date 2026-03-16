@@ -1,5 +1,10 @@
 # eulumdat-symmetry
 
+[![PyPI](https://img.shields.io/pypi/v/eulumdat-symmetry)](https://pypi.org/project/eulumdat-symmetry/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/eulumdat-symmetry)](https://pypi.org/project/eulumdat-symmetry/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/123VincentB/ldt_symmetry/blob/main/LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19047884.svg)](https://doi.org/10.5281/zenodo.19047884)
+
 An extension to [pyldt](https://pypi.org/project/eulumdat-py/) for symmetrising EULUMDAT (`.ldt`) photometric files.
 
 Developed in an ISO 17025 accredited photometry laboratory.
@@ -29,13 +34,13 @@ Requires [eulumdat-py](https://pypi.org/project/eulumdat-py/) >= 0.1.4 (`pyldt`)
 
 ## ISYM codes
 
-| ISYM | Description | C-planes symmetrised |
-|------|-------------|----------------------|
-| 0 | No symmetry | — |
-| 1 | Full rotational symmetry | All planes averaged to a single profile |
-| 2 | Symmetry about C0–C180 | C and 360°−C averaged |
-| 3 | Symmetry about C90–C270 | C and 180°−C averaged |
-| 4 | Quadrant symmetry | All 4 quadrant mirrors averaged |
+| ISYM | Description              | C-planes symmetrised                    |
+| ---- | ------------------------ | --------------------------------------- |
+| 0    | No symmetry              | —                                       |
+| 1    | Full rotational symmetry | All planes averaged to a single profile |
+| 2    | Symmetry about C0–C180   | C and 360°−C averaged                   |
+| 3    | Symmetry about C90–C270  | C and 180°−C averaged                   |
+| 4    | Quadrant symmetry        | All 4 quadrant mirrors averaged         |
 
 ---
 
@@ -176,11 +181,11 @@ ldt_symmetry/
 
 `eulumdat-symmetry` is an extension to `pyldt`, not a replacement. It operates on `pyldt.Ldt` objects and delegates all file I/O to `pyldt.LdtReader` and `pyldt.LdtWriter`.
 
-| Task | Tool |
-|------|------|
-| Read / write `.ldt` files | `pyldt` (`LdtReader`, `LdtWriter`) |
-| Edit header fields | `pyldt` (`LdtHeader`) |
-| Symmetrise the intensity distribution | `eulumdat-symmetry` (`LdtSymmetriser`) |
+| Task                                   | Tool                                    |
+| -------------------------------------- | --------------------------------------- |
+| Read / write `.ldt` files              | `pyldt` (`LdtReader`, `LdtWriter`)      |
+| Edit header fields                     | `pyldt` (`LdtHeader`)                   |
+| Symmetrise the intensity distribution  | `eulumdat-symmetry` (`LdtSymmetriser`)  |
 | Detect the symmetry mode automatically | `eulumdat-symmetry` (`LdtAutoDetector`) |
 
 ---
