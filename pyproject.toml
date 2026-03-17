@@ -25,7 +25,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/123VincentB/ldt_symmetry"
+Homepage = "https://github.com/123VincentB/eulumdat-symmetry"
 
 [tool.setuptools.packages.find]
 where = ["."]

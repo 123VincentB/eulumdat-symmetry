@@ -108,4 +108,4 @@ A score above the threshold means the candidate was rejected — ISYM 0 is retur
 
 - [pyldt documentation](https://pypi.org/project/eulumdat-py/) — read/write EULUMDAT files
 - [eulumdat-symmetry on PyPI](https://pypi.org/project/eulumdat-symmetry/)
-- [Source code](https://github.com/123VincentB/ldt_symmetry)
+- [Source code](https://github.com/123VincentB/eulumdat-symmetry)
