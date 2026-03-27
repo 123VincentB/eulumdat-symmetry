@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/eulumdat-symmetry)](https://pypi.org/project/eulumdat-symmetry/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/eulumdat-symmetry)](https://pypi.org/project/eulumdat-symmetry/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/123VincentB/eulumdat-symmetry/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/github/license/123VincentB/eulumdat-symmetry)](https://github.com/123VincentB/eulumdat-symmetry/blob/main/LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19047884.svg)](https://doi.org/10.5281/zenodo.19047884)
 
 An extension to [pyldt](https://pypi.org/project/eulumdat-py/) for symmetrising EULUMDAT (`.ldt`) photometric files.
